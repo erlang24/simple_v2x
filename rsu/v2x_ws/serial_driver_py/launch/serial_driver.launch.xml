@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- <arg name="port" default="/dev/ttyUSB0" /> -->
+  <!-- <arg name="baud" default="115200" /> -->
+
+  <node pkg="serial_driver_py" exec="serial_driver" name="serial_driver_py" output="screen">
+    <!-- <param name="port" value="$(var port)" /> -->
+    <!-- <param name="baud" value="$(var baud)" /> -->
+  </node>
+
+</launch>

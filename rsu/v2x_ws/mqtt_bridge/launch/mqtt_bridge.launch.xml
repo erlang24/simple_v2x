@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="host"      default="192.168.2.100" />
+  <arg name="port"      default="1883" />
+  <arg name="sub_tpic"  default="test_pub" />
+  <arg name="pub_tpic"  default="test_sub" />
+  <arg name="user_name" default="v2x" />
+  <arg name="passwd"    default="654321" />
+
+  <node pkg="mqtt_bridge" exec="mqtt_bridge" name="mqtt_bridge" output="screen" >
+    <param name="host"      value= "$(var host)"     />
+    <param name="port"      value= "$(var port)"     />
+    <param name="sub_tpic"  value= "$(var sub_tpic)" />
+    <param name="pub_tpic"  value= "$(var pub_tpic)" />
+    <param name="user_name" value= "$(var user_name)"/>
+    <param name="passwd"    value= "$(var passwd)"   />
+  </node>
+
+</launch>

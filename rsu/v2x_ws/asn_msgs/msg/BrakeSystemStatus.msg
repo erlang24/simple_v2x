@@ -1,0 +1,55 @@
+#  BrakePedalStatus
+int64 BRAKE_PEDAL_STATUS_UNAVAILABLE	= 0
+int64 BRAKE_PEDAL_STATUS_OFF	= 1
+int64 BRAKE_PEDAL_STATUS_ON	= 2
+
+int64  brake_padel   # BrakePedalStatus_t	     	  
+
+
+#  BrakeAppliedStatus
+int64 BRAKE_APPLIED_STATUS_UNAVAILABLE	= 0
+int64 BRAKE_APPLIED_STATUS_LEFTFRONT	= 1
+int64 BRAKE_APPLIED_STATUS_LEFTREAR	    = 2
+int64 BRAKE_APPLIED_STATUS_RIGHTFRONT	= 3
+int64 BRAKE_APPLIED_STATUS_RIGHTREAR	= 4
+  
+int64  wheel_brakes  # 	BrakeAppliedStatus_t       
+
+# TractionControlStatus_t
+int64 TRACTION_CONTROL_STATUS_UNAVAILABLE	= 0
+int64 TRACTION_CONTROL_STATUS_OFF	= 1
+int64 TRACTION_CONTROL_STATUS_ON	= 2
+int64 TRACTION_CONTROL_STATUS_ENGAGED	= 3
+
+int64  traction     # TractionControlStatus_t	     
+
+# AntiLockBrakeStatus_t
+int64 ANTI_LOCK_BRAKE_STATUS_UNAVAILABLE	= 0
+int64 ANTI_LOCK_BRAKE_STATUS_OFF	= 1
+int64 ANTI_LOCK_BRAKE_STATUS_ON	= 2
+int64 ANTI_LOCK_BRAKE_STATUS_ENGAGED	= 3
+
+int64  abs          # AntiLockBrakeStatus_t	     	     
+
+# StabilityControlStatus_t
+int64 STABILITY_CONTROL_STATUS_UNAVAILABLE	= 0
+int64 STABILITY_CONTROL_STATUS_OFF	= 1
+int64 STABILITY_CONTROL_STATUS_ON	= 2
+int64 STABILITY_CONTROL_STATUS_ENGAGED	= 3
+
+int64  scs          # StabilityControlStatus_t   	     
+
+# BrakeBoostApplied_t
+int64 BRAKE_BOOST_APPLIED_UNAVAILABLE	= 0
+int64 BRAKE_BOOST_APPLIED_OFF	= 1
+int64 BRAKE_BOOST_APPLIED_ON	= 2
+
+int64  brake_boost   # BrakeBoostApplied_t	      
+
+# AuxiliaryBrakeStatus_t
+int64 AUXILIARY_BRAKE_STATUS_UNAVAILABLE	= 0
+int64 AUXILIARY_BRAKE_STATUS_OFF	= 1
+int64 AUXILIARY_BRAKE_STATUS_ON	= 2
+int64 AUXILIARY_BRAKE_STATUS_RESERVED	= 3
+
+int64  aux_brakes    # AuxiliaryBrakeStatus_t	 	 
